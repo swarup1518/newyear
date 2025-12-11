@@ -705,6 +705,10 @@ strong {
   background-image: url('../images/sfx.jpg');
 }
 
+.schedule-table .emcee-background-image {
+  background-image: url('../images/emcee.jpg');
+}
+
 .schedule-table .countdown-background-image {
   background-image: url('../images/countdown.jpg');
 }
