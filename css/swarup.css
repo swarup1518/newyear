@@ -1,0 +1,148 @@
+/* Title */
+.gallery-title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+  
+  /* Gallery Grid: 4 per row */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    gap: 12px;
+    justify-content: center;
+  }
+  
+  /* Thumbnail block */
+  .thumb {
+    width: 150px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0;
+  }
+  
+  .thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* portrait crop */
+    border-radius: 6px;
+    display: block;
+  }
+  
+  /* Lightbox overlay */
+  .lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.9);
+    z-index: 2000;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .lightbox[aria-hidden="false"] {
+    display: flex;
+  }
+  
+  .lightbox-inner {
+    max-width: 1100px;
+    width: 100%;
+    position: relative;
+  }
+  
+  /* Close button */
+  .lb-close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: #222;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  /* Lightbox image */
+  .lb-img-area {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .lightbox-img {
+    width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+    border-radius: 6px;
+    background: black;
+  }
+  
+  /* Navigation arrows */
+  .lb-controls {
+    position: absolute;
+    top: 50%;
+    left: 0; right: 0;
+    transform: translateY(-50%);
+  }
+  
+  .lb-button {
+    background: rgba(0,0,0,0.5);
+    border: none;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+    position: absolute;
+  }
+  
+  .lb-prev { left: -60px; }
+  .lb-next { right: -60px; }
+  
+  /* Caption */
+  .lb-caption {
+    text-align: center;
+    color: #eee;
+    margin-top: 10px;
+  }
+  
+  /* Thumbnails inside lightbox */
+  .lb-thumbs {
+    display: flex;
+    gap: 8px;
+    margin-top: 14px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .lb-thumb {
+    width: 60px;
+    height: 40px;
+    border-radius: 4px;
+    overflow: hidden;
+    opacity: .6;
+    border: 2px solid transparent;
+    cursor: pointer;
+  }
+  
+  .lb-thumb.active {
+    opacity: 1;
+    border-color: white;
+  }
+  
+  .lb-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
