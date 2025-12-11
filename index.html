@@ -54,7 +54,7 @@ https://templatemo.com/tm-583-festava-live
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">
-                        Tall Talez Events Presents
+                        Tall Talez  
                     </a>
 
                     <a href="https://in.bookmyshow.com/events/hyd-biggest-nye-2026/ET00474704" class="btn custom-btn d-lg-none ms-auto me-4">Buy Ticket</a>
@@ -78,7 +78,7 @@ https://templatemo.com/tm-583-festava-live
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_4">Venue</a>
+                                <a class="nav-link click-scroll" href="#section_4">Highlights</a>
                             </li>
 
                             <li class="nav-item">
@@ -86,7 +86,7 @@ https://templatemo.com/tm-583-festava-live
                             </li>
     
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_6">Contact</a>
+                                <a class="nav-link click-scroll" href="#section_6">Gallery</a>
                             </li>
                         </ul>
 
@@ -291,7 +291,7 @@ https://templatemo.com/tm-583-festava-live
                                         <tr>
                                            
 
-                                            <td class="table-background-image-wrap pop-background-image">
+                                            <td class="table-background-image-wrap live-background-image">
                                                 <h3>Live Band, DJ</h3>
 
                                               
@@ -302,7 +302,7 @@ https://templatemo.com/tm-583-festava-live
 
                                             <td style="background-color: #F3DCD4"></td>
 
-                                            <td class="table-background-image-wrap rock-background-image">
+                                            <td class="table-background-image-wrap fashion-background-image">
                                                 <h3>Fashion Show</h3>
 
                                                 
@@ -318,7 +318,7 @@ https://templatemo.com/tm-583-festava-live
                 
                                             <td style="background-color: #ECC9C7"></td>
 
-                                            <td>
+                                            <td class="table-background-image-wrap sfx-background-image">
                                                 <h3>Special Effects & Highlights</h3>
 
                                           
@@ -332,11 +332,9 @@ https://templatemo.com/tm-583-festava-live
                                         <tr>
                                          
                 
-                                            <td class="table-background-image-wrap country-background-image">
+                                            <td class="table-background-image-wrap countdown-background-image">
                                                 <h3>New Year Countdown</h3>
-
-                                            
-
+                                           
                                                 <p>Grand countdown + fireworks + confetti storm to welcome 2026</p>
 
                                                 <div class="section-overlay"></div>
@@ -344,11 +342,13 @@ https://templatemo.com/tm-583-festava-live
 
                                             <td style="background-color: #D1CFC0"></td>
 
-                                            <td>
+                                            <td class="table-background-image-wrap food-background-image">
                                                 <h3>Free Food & Drinks</h3>
+                                                <div class="section-overlay"></div>
+                                            
 
                                                
-                                                <p>Unlimited Food & Drinks available all night.</p>
+                                                <p>Unlimited Food & Drinks available all night.</p></td>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -457,97 +457,31 @@ https://templatemo.com/tm-583-festava-live
 
                             <div class="tab-content shadow-lg mt-5" id="nav-tabContent">
                                 <div class="tab-pane fade show active" id="nav-ContactForm" role="tabpanel" aria-labelledby="nav-ContactForm-tab">
-                              
-                                  <form id="contactForm" class="custom-form contact-form mb-5 mb-lg-0" 
-                                        action="https://formspree.io/f/xyzrbkpo" method="POST" role="form" novalidate>
-                              
-                                    <div id="contact-form-feedback" style="display:none;margin-bottom:1rem;border-radius:6px;padding:10px;"></div>
-                              
-                                    <div class="contact-form-body">
-                              
-                                      <div class="row">
-                                        <div class="col-lg-6 col-md-6 col-12">
-                                          <input type="text" name="name" id="contact-name" class="form-control" placeholder="Full name" required>
+                                    <form class="custom-form contact-form mb-5 mb-lg-0" action="#" method="post" role="form">
+                                        <div class="contact-form-body">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <input type="text" name="contact-name" id="contact-name" class="form-control" placeholder="Full name" required>
+                                                </div>
+
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <input type="email" name="contact-email" id="contact-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required>
+                                                </div>
+                                            </div>
+
+                                            <input type="text" name="contact-company" id="contact-company" class="form-control" placeholder="Company" required>
+
+                                            <textarea name="contact-message" rows="3" class="form-control" id="contact-message" placeholder="Message"></textarea>
+
+                                            <div class="col-lg-4 col-md-10 col-8 mx-auto">
+                                                <button type="submit" class="form-control">Send message</button>
+                                            </div>
                                         </div>
-                              
-                                        <div class="col-lg-6 col-md-6 col-12">
-                                          <input type="email" name="email" id="contact-email" pattern="[^ @]*@[^ @]*" 
-                                                 class="form-control" placeholder="Email address" required>
-                                        </div>
-                                      </div>
-                              
-                                      <input type="text" name="company" id="contact-company" class="form-control" placeholder="Phone" required>
-                              
-                                      <textarea name="message" rows="3" class="form-control" id="contact-message" placeholder="Message"></textarea>
-                              
-                                      <div class="col-lg-4 col-md-10 col-8 mx-auto">
-                                        <button type="submit" id="contact-submit-btn" class="form-control">Send message</button>
-                                      </div>
-                              
-                                    </div>
-                                  </form>
+                                    </form>
                                 </div>
-                              </div>
-                              
-                              <script>
-                              document.addEventListener('DOMContentLoaded', function () {
-                              
-                                const form = document.getElementById('contactForm');
-                                const feedback = document.getElementById('contact-form-feedback');
-                                const submitBtn = document.getElementById('contact-submit-btn');
-                              
-                                function showMessage(text, ok = true) {
-                                  feedback.style.display = 'block';
-                                  feedback.textContent = text;
-                                  feedback.style.background = ok ? '#d1e7dd' : '#f8d7da';
-                                  feedback.style.color = ok ? '#0f5132' : '#842029';
-                                  feedback.style.border = ok ? '1px solid #badbcc' : '1px solid #f5c2c7';
-                                }
-                              
-                                form.addEventListener('submit', async function (e) {
-                                  e.preventDefault();
-                              
-                                  if (!form.checkValidity()) {
-                                    form.reportValidity();
-                                    return;
-                                  }
-                              
-                                  submitBtn.disabled = true;
-                                  submitBtn.textContent = 'Sending...';
-                              
-                                  const url = form.action;
-                                  const formData = new FormData(form);
-                                  formData.append('_subject', 'New Contact Form Message');
-                              
-                                  try {
-                                    const res = await fetch(url, {
-                                      method: 'POST',
-                                      headers: { 'Accept': 'application/json' },
-                                      body: formData
-                                    });
-                              
-                                    if (res.ok) {
-                                      showMessage('Thank you! Your message has been sent. We will contact you soon.', true);
-                                      form.reset();
-                                    } else {
-                                      const data = await res.json().catch(() => null);
-                                      const errMsg = data && data.error ? data.error : 'Submission failed. Please try again.';
-                                      showMessage(errMsg, false);
-                                    }
-                                  } catch (err) {
-                                    showMessage('Network error. Please try again later.', false);
-                                  } finally {
-                                    submitBtn.disabled = false;
-                                    submitBtn.textContent = 'Send message';
-                                  }
-                                });
-                              
-                              });
-                              </script>
-                              
 
                                 <div class="tab-pane fade" id="nav-ContactMap" role="tabpanel" aria-labelledby="nav-ContactMap-tab">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15281527.263685085!2d72.10809512517385!3d20.75721265177787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa28c1c80fd92637f%3A0xecdba3aeddbabe69!2sTall%20Talez%20Productions!5e0!3m2!1sen!2sin!4v1765454357210!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29974.469402870927!2d120.94861466021855!3d14.106066818082482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd777b1ab54c8f%3A0x6ecc514451ce2be8!2sTagaytay%2C%20Cavite%2C%20Philippines!5e1!3m2!1sen!2smy!4v1670344209509!5m2!1sen!2smy" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     <!-- You can easily copy the embed code from Google Maps -> Share -> Embed a map // -->
                                 </div>
                             </div>
@@ -577,25 +511,25 @@ https://templatemo.com/tm-583-festava-live
                                 </li>
     
                                 <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link">
-                                        <span class="bi-apple"></span>
+                                    <a href="https://www.facebook.com/Talltalez/" class="social-icon-link">
+                                        <span class="bi-facebook"></span>
                                     </a>
                                 </li>
     
                                 <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link">
+                                    <a href="https://www.instagram.com/talltalez_productions/" class="social-icon-link">
                                         <span class="bi-instagram"></span>
                                     </a>
                                 </li>
 
                                 <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link">
+                                    <a href="https://www.youtube.com/@Talltalez" class="social-icon-link">
                                         <span class="bi-youtube"></span>
                                     </a>
                                 </li>
 
                                 <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link">
+                                    <a href="https://talltalez.in/" class="social-icon-link">
                                         <span class="bi-pinterest"></span>
                                     </a>
                                 </li>
@@ -625,7 +559,7 @@ https://templatemo.com/tm-583-festava-live
                             </li>
 
                             <li class="site-footer-link-item">
-                                <a href="#section_4" class="site-footer-link">Venue</a>
+                                <a href="#section_4" class="site-footer-link">Highlights</a>
                             </li>
 
                             <li class="site-footer-link-item">
@@ -633,7 +567,7 @@ https://templatemo.com/tm-583-festava-live
                             </li>
 
                             <li class="site-footer-link-item">
-                                <a href="#section_6" class="site-footer-link">Contact</a>
+                                <a href="ticket.html" class="site-footer-link">Contact</a>
                             </li>
                         </ul>
                     </div>

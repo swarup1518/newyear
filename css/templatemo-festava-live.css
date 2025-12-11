@@ -693,16 +693,24 @@ strong {
   border-right-color: transparent;
 }
 
-.schedule-table .pop-background-image {
-  background-image: url('../images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg');
+.schedule-table .live-background-image {
+  background-image: url('../images/live.jpg');
 }
 
-.schedule-table .rock-background-image {
-  background-image: url('../images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg');
+.schedule-table .fashion-background-image {
+  background-image: url('../images/fashion.jpg');
 }
 
-.schedule-table .country-background-image {
-  background-image: url('../images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg');
+.schedule-table .sfx-background-image {
+  background-image: url('../images/sfx.jpg');
+}
+
+.schedule-table .countdown-background-image {
+  background-image: url('../images/countdown.jpg');
+}
+
+.schedule-table .food-background-image {
+  background-image: url('../images/food.jpg');
 }
 
 .table-background-image-wrap {
